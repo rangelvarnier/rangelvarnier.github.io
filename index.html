@@ -2,6 +2,10 @@
 <html>
 
 <head>
+    <meta http-equiv="Cache-Control" content="max-age=31536000" />
+    <meta http-equiv="Cache-Control" content="public" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Rangel Varnier</title>
@@ -16,7 +20,7 @@
     <div id="container1" class="arrow"></div>
 <!-- <div id="container" class="logo"></div> -->
 <header id="home">
-    <nav><a href="#about-me">Sobre mim</a><a href="#Experenice">Experiência</a><a href="#Blog">Blog</a><a href="#Details">Contate me</a></nav>
+    <nav><a href="#about-me">Sobre mim</a><a href="#Experenice">Experiência</a><a href="#Blog">Blog</a><a href="#Details">Contato</a></nav>
     <h1><span>Rangel Varnier</span></h1>
     <p class="kicker">Desenvolvedor web</p>
 </header>
@@ -27,14 +31,14 @@
     <hr class="bar" />
     <div class="about-lock">
         <div ontouchstart="this.classList.toggle('hover');" class="flip-container">
-            <div class="flipper">
-                <div class="front">
-                    <div class="face-img"></div>
-                </div>
-                <div class="back">
+            <!-- <div class="flipper"> -->
+            <div class="front">
+                <div class="face-img"></div>
+            </div>
+            <!-- <div class="back">
                     <div class="face1-img"></div>
                 </div>
-            </div>
+            </div> -->
         </div>
         <div class="glyph-icon flaticon-cogwheel28"></div>
         <div class="glyph-icon flaticon-computer1"></div>
@@ -43,7 +47,7 @@
     </div>
     <div class="blurb">
         <p>
-            Olá, sou Rangel e trabalho com Web usando Java, JS, Spring, Postgresql e outras coisas. Estou estudando JS, React, NodeJS, Docker e as novidades que surgem na web
+            Olá, sou Rangel e trabalho com desenvolvimento Web usando Java, JS, Spring, Postgresql e outras coisas. Estou estudando JS, React, NodeJS, Docker e as novidades que surgem na web
         </p>
     </div>
     <div class="skill-lock"></div>
@@ -53,15 +57,17 @@
 <div class="history">
     <div class="cd-timeline-header">
         <h2 id="Experenice">Expeciência</h2>
-        <hr class="bar" />
+        <hr class="bar"/>
     </div>
     <section id="cd-timeline" class="cd-container">
         <div class="cd-timeline-block">
-            <div class="cd-timeline-img cd-movie"><img src="../assets/img/web-programming.svg" alt="College" /></div>
+            <div class="cd-timeline-img cd-movie"><img src="../assets/img/web-programming.svg" alt="College"/></div>
             <!-- cd-timeline-img-->
             <div class="cd-timeline-content">
-                <h2>Desbravador Software LTDA.</h2>
-                <p>Desenvolvimento de software para gestão hoteleira com arquitetura web utilizando linguagem Java.</p>
+                <h2>Desbravador Software.</h2>
+                <p>
+                    Estou trabalhando com desenvolvimento web, criando aplicações com principalmente com Java, Javascript e HTML.
+                </p>
                 <span class="cd-date">Maio 2014 - até o momento</span>
             </div>
             <!-- cd-timeline-content-->
@@ -69,69 +75,79 @@
         </div>
 
         <div class="cd-timeline-block">
-            <div class="cd-timeline-img cd-movie"><img src="../assets/img/web-programming.svg" alt="College" /></div>
+            <div class="cd-timeline-img cd-movie"><img src="../assets/img/hosting.svg" alt="College"/></div>
             <!-- cd-timeline-img-->
             <div class="cd-timeline-content">
-                <h2>Desbravador Software LTDA.</h2>
-                <p>Implantação de sistemas, suporte técnico e treinamento de usuários voltado a rotinas administrativas como estoque, financeiro e rotinas contábeis e fiscais. </p>
+                <h2>Desbravador Software.</h2>
+                <p>Implantei sistemas, prestei suporte técnico e treinei clientes para o uso de rotinas administrativas, financeiras e gerenciais pertinentes ao uso do sistema com público em postos de combustível.
+                </p>
                 <span class="cd-date">Setembro 2013 - Maio 2014</span>
             </div>
             <!-- cd-timeline-content-->
             <!-- cd-timeline-block-->
         </div>
 
-
         <div class="cd-timeline-block">
-            <div class="cd-timeline-img cd-picture"><img src="../assets/img/graduate38.svg" alt="Picture" /></div>
+            <div class="cd-timeline-img cd-picture"><img src="../assets/img/graduate38.svg" alt="Picture"/></div>
             <!-- cd-timeline-img-->
             <div class="cd-timeline-content">
-                <h2>UNOESC</h2>
+                <h2>Universidade do Oeste de Santa Catarina</h2>
                 <p>Tecnologia em análise e desenvolvimento de sistemas.</p>
+                <p>
+                    Graduação focada no desenvolvimento de projetos e sistemas de hardware e software.
+                </p>
                 <span class="cd-date">2011 - 2013</span>
             </div>
             <!-- cd-timeline-content-->
             <!-- cd-timeline-block-->
         </div>
         <div class="cd-timeline-block">
-            <div class="cd-timeline-img cd-location"><img src="../assets/img/graduate38.svg" alt="Location" /></div>
+            <div class="cd-timeline-img cd-location"><img src="../assets/img/graduate38.svg" alt="Location"/></div>
             <!-- cd-timeline-img-->
             <div class="cd-timeline-content">
                 <h2>4 Linux</h2>
                 <p>Linux Network Servers</p>
+                <p>
+                    Curso com base no gerenciamento de serviços de rede. Firewall, DNS, FTP e DHCP são alguns dos serviços aplicados no curso.
+                </p>
                 <span class="cd-date">2009</span>
             </div>
             <!-- cd-timeline-content-->
             <!-- cd-timeline-block-->
         </div>
         <div class="cd-timeline-block">
-            <div class="cd-timeline-img cd-location"><img src="../assets/img/hosting.svg" alt="Location" /></div>
+            <div class="cd-timeline-img cd-location"><img src="../assets/img/hosting.svg" alt="Location"/></div>
             <!-- cd-timeline-img-->
             <div class="cd-timeline-content">
-                <h2>Visão Sistemas e Equipamentos de Informática LTDA</h2>
-                <p>Suporte técnico, implantação e configuração de sistema de automação comercial, com cupom fiscal PAF/ ECF, nota fiscal eletrônica e integrações como cartões de crédito.</p>
+                <h2>Visão Sistemas e Equipamentos de Informática</h2>
+                <p>Prestei suporte técnico, implantei e configurei rotinas para sistemas de gerenciamento e automação à clientes focados no comércio.</p>
                 <span class="cd-date">Março 2008 - Agosto 2013</span>
             </div>
             <!-- cd-timeline-content-->
         </div>
         <div class="cd-timeline-block">
-            <div class="cd-timeline-img cd-location"><img src="../assets/img/graduate38.svg" alt="Location" /></div>
+            <div class="cd-timeline-img cd-location"><img src="../assets/img/graduate38.svg" alt="Location"/></div>
             <!-- cd-timeline-img-->
             <div class="cd-timeline-content">
                 <h2>Serviço Nacional de Aprendizagem Industrial</h2>
                 <p>Técnico em Manutenção de Micro Computadores e Redes.</p>
+                <p>
+                    Curo de nível técnico, voltado a manutenção de computadores e gerenciamento de redes.
+                </p>
                 <span class="cd-date">2007 - 2009</span>
             </div>
             <!-- cd-timeline-content-->
             <!-- cd-timeline-block-->
             <div class="cd-timeline-block">
-                <div class="cd-timeline-img cd-location"><img src="../assets/img/question30.svg" alt="Location" /></div>
+                <div class="cd-timeline-img cd-location"><img src="../assets/img/question30.svg" alt="Location"/></div>
             </div>
             <!-- cd-timeline-->
         </div>
 
     </section>
     <div class="cd-timeline-header">
-        <h2></h2></div>
+        <h2></h2>
+    </div>
 </div>
 
 
@@ -154,7 +170,7 @@
 
 
 <section class="section-contact">
-    <h2 id="Details">Contatos</h2>
+    <h2 id="Details">Contato</h2>
     <hr class="bar" />
     <div class="social-links">
         <a href="https://www.facebook.com/rangel.varnier">
@@ -171,8 +187,8 @@
 
 
 <section>
-    <h2 id="Contact">Contate me</h2>
-    <hr class="bar"/>
+    <h2 id="Contact">Fale comigo</h2>
+    <hr class="bar" />
     <form method="post" action="http://formspree.io/rangel.varnier@gmail.com">
         <div class="contact-info-group">
             <label>
@@ -193,11 +209,11 @@
         <div class="content-wrap">
             <nav>
                 <a href="#about-me">Sobre mim</a>
-                <a href="#Experenice">Experiencia</a>
+                <a href="#Experenice">Experiência</a>
                 <a href="#Blog">Blog</a>
-                <a href="#Details">Contate me</a>
+                <a href="#Details">Contato</a>
             </nav>
-            <p class="copyright">Rangel Varnier 2016</p>
+            <p class="copyright">Rangel Varnier - 2016</p>
         </div>
     </div>
 </footer>
